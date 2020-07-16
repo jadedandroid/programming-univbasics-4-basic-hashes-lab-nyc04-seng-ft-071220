@@ -13,5 +13,6 @@ end
 
 def id_hash_generator(number)
   hash = {}
-   number.object_id
+   hash[id] = number.object_id
+   hash
 end
